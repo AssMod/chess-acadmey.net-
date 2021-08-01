@@ -1,0 +1,6 @@
+last 2 versions
+Firefox ESR
+not IE < 10
+not < 0.01%
+not IE_Mob < 10
+not android < 1.2
