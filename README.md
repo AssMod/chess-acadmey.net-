@@ -1,1 +1,1 @@
-# chess-acadmey.net-
+# chess-acadmey.net/
