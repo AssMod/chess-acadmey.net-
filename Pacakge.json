@@ -1,0 +1,28 @@
+{
+  "name": "insight",
+  "version": "2.0.0",
+  "private": true,
+  "description": "chess-acadmey.net chess insights",
+  "type": "module",
+  "module": "src/main.js",
+  "keywords": [
+    "chess",
+    "chess-acadmey.net",
+    "insight",
+    "analysis"
+  ],
+  "author": "lishogi",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@build/rollupProject": "2.0.0"
+  },
+  "dependencies": {
+    "common": "2.0.0",
+    "mithril": "github:AssMod/mithril.js#lila-1",
+    "numeral": "^1.5"
+  },
+  "scripts": {
+    "dev": "rollup --config",
+    "prod": "rollup --config --config-prod"
+  }
+}
