@@ -1,0 +1,8 @@
+# search ignore
+AssMod
+translation/dest
+ui/*/c++/build
+public/font
+public/sound
+public/piece 
+public/piece-c++
