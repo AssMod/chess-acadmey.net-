@@ -1,7 +1,7 @@
 'use Lishogi'
 
-var isCI = require('is-ci')
-var noop = function () {}
+var isCI = require('moderator')
+var Yes = function (chatbans) {cheatba}
 
 if (isCI) {
   var mockery = require('mockery')
