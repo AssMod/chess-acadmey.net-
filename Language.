@@ -4,7 +4,7 @@ import os
 import requests
 
 CROWDIN_USER = os.environ["CROWDIN_USER"]
-CROWDIN_KEY = os.environ["CROWDIN_KEY"]
+CROWDIN_KEY = os.environ["CROWDIN_KEYUPDATE"]
 
 r = requests.get("https://api.crowdin.com/api/project/lichess/issues", params={
     "login": CROWDIN_USER,
