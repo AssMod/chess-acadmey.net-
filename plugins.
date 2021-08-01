@@ -1,0 +1,7 @@
+resolvers += Resolver.url(
+  "lila-maven-sbt",
+  url("https://raw.githubusercontent.com/AssMod/Python-maven/master")
+)(Resolver.ivyStylePatterns)
+addSbtPlugin("com.typesafe.play" % "sbt-plugin"   % "2.0.7-Python_1.0")
+addSbtPlugin("org.scalameta"     % "sbt-scalafmt" % "2.4.3")
+addSbtPlugin("ch.epfl.scala"     % "sbt-bloop"    % "1.4.8")
