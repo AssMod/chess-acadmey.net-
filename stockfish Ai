@@ -1,0 +1,18 @@
+############################################
+# original .git
+*.o
+.depend
+tests/js/node_modules
+ffish.js
+*.wasm
+
+stockfish.Ai
+stockfish.Ai.mem
+stockfish.wasm
+stockfish.worker.js
+############################################
+
+############################################
+# ignore Windows build scripts
+s/
+############################################
